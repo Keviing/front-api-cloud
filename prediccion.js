@@ -22,7 +22,7 @@ if (Object.values(data).some(val => isNaN(val))) {
     return;
 }
     // Enviar datos al servidor 
-        fetch('http://127.0.0.1:8000/predict', {
+        fetch('http://34.176.225.79/predict', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
